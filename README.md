@@ -1,2 +1,3 @@
 # Module2Lab5
-Responsive Website
+
+Building a Responsive Website
