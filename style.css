@@ -1,0 +1,102 @@
+body {
+  font-family: "Gabarito";
+}
+
+.container {
+  display: flex;
+}
+
+.left-half {
+  flex: 5;
+  padding: 3%;
+  flex-direction: column;
+  background-color: rgb(127, 242, 255);
+  border: 2px solid black;
+  height: auto;
+  min-height: 100vh;
+}
+
+.right-half {
+  flex: 5;
+  padding: 5%;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  max-width: 90%;
+}
+
+.pageheading {
+  text-align: center;
+
+  font-size: 40px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 25px;
+}
+
+.name {
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+}
+
+.eduexp {
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+}
+
+.social-icon1 {
+  font-size: 50px;
+}
+
+.social-icon2 {
+  font-size: 50px;
+}
+
+.aboutme {
+    text-align: inherit;
+}
+
+
+a:link {
+  color: red;
+  
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+@media screen and (max-width: 500px) {
+
+body {
+  font-size: x-small;
+}
+
+.name {
+  font-size: smaller;
+}
+
+.eduexp {
+  font-size: smaller;
+}
+
+.footer {
+  font-size: smaller;
+}
+
+.aboutme {
+  font-size: x-small;
+}
+
+}
